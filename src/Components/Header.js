@@ -4,11 +4,10 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 export default function Header() {
     return <header className='navbar'>
         <nav>
-            <button>BACK</button>
             <div className='info'>
                 LITTLE LEMON
                 <section>                
-                    <FontAwesomeIcon icon={faLocationDot} />
+                    <FontAwesomeIcon icon={faLocationDot} size = "lg"/>
                     WEST LOOP CHICAGO
                     </section>
             </div>

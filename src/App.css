@@ -1,16 +1,103 @@
+/* Scoped styles for the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers form content horizontally */
+  gap: 15px; /* Adds spacing between elements */
+  width: 320px; /* Adjust width to fit content */
+  margin: 50px auto; /* Centers the form on the page */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+  display: flex;
+  justify-content: center; /* Centers radio buttons horizontally */
+  gap: 15px; /* Adds spacing between radio buttons */
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%; /* Ensures consistent width */
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Header styles */
+.navbar {
+  width: 100%;
+  background: #f9f9f9;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar button:hover {
+  background-color: #0056b3;
+}
+
 .info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  border: 1px solid black
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.navbar {
+.info section {
   display: flex;
-  border: 1px solid black
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
+svg {
+  color: #d9534f; /* Red for location icon */
 }
